@@ -150,7 +150,7 @@ a {
 
 a:hover {
     color: black;
-    background-color: rgb(133, 163, 69);
+    background-color: #068e75;
     text-decoration: none !important;
     border-radius: 5px;
     padding: 5px;
