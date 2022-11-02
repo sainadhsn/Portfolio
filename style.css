@@ -57,9 +57,7 @@
     text-align: center;
 }
 
-.skillsback {
-    
-}
+.skillsback {}
 
 .banner2 {
     width: 100%;
@@ -156,6 +154,11 @@ a:hover {
     text-decoration: none !important;
     border-radius: 5px;
     padding: 5px;
+}
+
+.aboutColor:hover {
+    background-color: whitesmoke !important;
+    color: darkslategrey !important;
 }
 
 #head {
