@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 * {
     margin: 0%;
@@ -57,61 +58,89 @@
     text-align: center;
 }
 
-.skillsback {}
+.banner4 #header {
+    margin: 0;
+    padding-top: 6vh;
+    text-align: center;
+}
+
+
+.proColor {
+    color: #16b699 !important;
+}
+
+.namec {
+    margin-left: 5rem;
+    background: rgb(255, 255, 0);
+    background: linear-gradient(118deg, rgba(255, 255, 0, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.proColor:hover {
+    color: yellow !important;
+    background-color: #16b699 !important;
+    padding: 0.5rem;
+}
+
+.ques {
+    background: rgb(22, 182, 153);
+    background: linear-gradient(147deg, rgba(22, 182, 153, 1) 25%, rgba(255, 255, 255, 1) 74%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 
 .banner2 {
     width: 100%;
     height: 100vh;
-    background-image: url(prof.jpg);
+    /* background-image: url(prof.jpg);
     background-size: cover;
     background-position: center;
     border: 10px;
-    border-color: black;
+    border-color: black; */
+    background-color: black;
+}
+
+.proBack {
+    background-color: yellow;
+    margin: 2rem;
+    padding: 3rem;
+    color: black
+}
+
+.certBack {
+    background-color: black;
+    margin: 2rem;
+    padding: 3rem;
+    color: yellow
 }
 
 .banner3 {
     width: 100%;
     height: 100vh;
-    background-image: url(Extra.jpg);
+    /* background-image: url(Extra.jpg);
     background-size: cover;
     background-position: center;
     border: 10px;
-    border-color: black;
+    border-color: black; */
+    background-color: white;
 }
 
 .banner4 {
-    width: 100%;
+    background-color: black;
     height: 100vh;
-    background-image: url(feed.jpg);
-    background-size: cover;
-    background-position: center;
-    border: 10px;
-    border-color: black;
 }
 
 .banner2 #header {
-    color: rgb(216, 212, 212);
-    border-left: 100px;
-    padding-left: 100px;
-    margin-left: 350px;
-    margin-right: 350px;
-    position: relative;
-    top: 50px;
-    left: 250px;
-    border-radius: 5px;
+    margin: 0;
+    padding-top: 6vh;
     text-align: center;
 }
 
 .banner3 #header {
-    color: rgb(216, 212, 212);
-    border-left: 100px;
-    padding-left: 100px;
-    margin-left: 350px;
-    margin-right: 350px;
-    position: relative;
-    top: 50px;
-    left: -60px;
-    border-radius: 5px;
+    margin: 0;
+    padding-top: 6vh;
     text-align: center;
 }
 
@@ -142,6 +171,16 @@ a {
     text-decoration: none;
     margin: 10px;
     margin-left: 0;
+}
+
+
+.certa {
+    color: white !important;
+    font-size: 1rem !important;
+}
+
+.certa:hover {
+    color: white !important;
 }
 
 .aboutColor {
@@ -188,17 +227,14 @@ a:hover {
     font-weight: bold;
 }
 
-#hov {
-    opacity: 0.1;
-    height: 50px;
-    width: 50px;
+
+.reshome {
+    text-decoration: none;
+    color: white !important;
+    background-color: black !important;
 }
 
-#hov:hover {
-    width: 200px;
-    height: 200px;
-    opacity: 1;
-}
+
 
 .home {
     position: absolute;
@@ -212,7 +248,7 @@ a:hover {
 
 .content-sub {
     text-align: center;
-    margin-top: 30vh;
+    margin-top: 20vh;
 }
 
 #coni {
