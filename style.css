@@ -69,6 +69,11 @@
     color: #16b699 !important;
 }
 
+.project {
+    color: black !important;
+    margin: 0 !important;
+}
+
 .namec {
     margin-left: 5rem;
     background: rgb(255, 255, 0);
@@ -81,6 +86,7 @@
     color: yellow !important;
     background-color: #16b699 !important;
     padding: 0.5rem;
+    border-radius: 7px;
 }
 
 .ques {
@@ -189,6 +195,15 @@ a {
 
 a:hover {
     color: black;
+    background-color: rgb(133, 163, 69);
+    background-color: #068e75;
+    text-decoration: none !important;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.pro a:hover {
+    color: black;
     background-color: #068e75;
     text-decoration: none !important;
     border-radius: 5px;
@@ -196,8 +211,8 @@ a:hover {
 }
 
 .aboutColor:hover {
-    background-color: whitesmoke !important;
-    color: darkslategrey !important;
+    background-color: #068e75 !important;
+    color: white !important;
 }
 
 #head {
