@@ -202,6 +202,8 @@ a:hover {
     padding: 5px;
 }
 
+
+
 .pro a:hover {
     color: black;
     background-color: #068e75;
@@ -272,4 +274,10 @@ a:hover {
     margin-top: 100px;
     margin-left: 400px;
     font-weight: bold;
+}
+
+.project:hover {
+    background-color: yellow !important;
+    margin: 0 !important;
+    padding: 0;
 }
